@@ -59,19 +59,19 @@ let rain = false
 */
 
 //CODE HERE
-if (temperature >= 80 && rain == true) {
-  console.log("One feels like a duck splashing around in all this wet, and when one feels like a duck, one is happy! Wear a T-shirt and take an umbrella today.")
-} else if (temperature > 60 && temperature < 80 && rain && rain == true) {
-  console.log("One should wear a rain jacket.")
-} else if (temperature <= 60 && rain == true) {
-  console.log("One should wear a jacket and carry an umbrella.")
-} else if (temperature >= 80 && rain == false) {
-  console.log("Its thong weather. Feet or bottoms, your choice.")
-} else if (temperature > 60 && temperature < 80 && rain == false) {
-    console.log("Praise be to the nature goddess, its a perfect day for Crocs & socks!")
-} else if (temperature <= 60 && rain == false) {
-  console.log("Brr, its cold out here. Wrap yourself in your finest skin of deer.")
-}
+// if (temperature >= 80 && rain == true) {
+//   console.log("One feels like a duck splashing around in all this wet, and when one feels like a duck, one is happy! Wear a T-shirt and take an umbrella today.")
+// } else if (temperature > 60 && temperature < 80 && rain && rain == true) {
+//   console.log("One should wear a rain jacket.")
+// } else if (temperature <= 60 && rain == true) {
+//   console.log("One should wear a jacket and carry an umbrella.")
+// } else if (temperature >= 80 && rain == false) {
+//   console.log("Its thong weather. Feet or bottoms, your choice.")
+// } else if (temperature > 60 && temperature < 80 && rain == false) {
+//     console.log("Praise be to the nature goddess, its a perfect day for Crocs & socks!")
+// } else if (temperature <= 60 && rain == false) {
+//   console.log("Brr, its cold out here. Wrap yourself in your finest skin of deer.")
+// }
 
 
 ////////// PROBLEM 5 //////////
@@ -81,7 +81,9 @@ if (temperature >= 80 && rain == true) {
 */
 
 //CODE HERE
-
+for (let i = 0; i < 10; i++) {
+  console.log("Hello")
+}
 
 ////////// PROBLEM 6 //////////
 
