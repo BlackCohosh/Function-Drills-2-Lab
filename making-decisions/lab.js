@@ -17,7 +17,7 @@
 // For problems 2-3 use the following lines of code:
 var amysAge = 34
 var brittanisAge = 34
-var amysBirthYear = 1991
+var amysBirthYear = 1986
 var brittanisBirthYear = 1986
 
 ////////// PROBLEM 2 //////////
@@ -27,13 +27,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-if (amysAge > brittanisAge) {
-  console.log("Amy is older.") 
-} else if (amysAge === brittanisAge) {
-  console.log("Amy and Brittani are equally young!")
-} else {
-  console.log("Brittani is older.")
-}
+// if (amysAge > brittanisAge) {
+//   console.log("Amy is older.") 
+// } else if (amysAge === brittanisAge) {
+//   console.log("Amy and Brittani are equally young!")
+// } else {
+//   console.log("Brittani is older.")
+// }
 
 ////////// PROBLEM 3 //////////
 
@@ -42,12 +42,16 @@ if (amysAge > brittanisAge) {
 */
 
 //CODE HERE
-
+// if (amysAge === brittanisAge) {
+//   console.log("Amy & Brittany were born in the same year.")
+// } else {
+//   console.log("Amy & Brittani were not born in the same year.")
+// }
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 80
+let rain = false
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -55,6 +59,19 @@ let rain = true
 */
 
 //CODE HERE
+if (temperature >= 80 && rain == true) {
+  console.log("One feels like a duck splashing around in all this wet, and when one feels like a duck, one is happy! Wear a T-shirt and take an umbrella today.")
+} else if (temperature > 60 && temperature < 80 && rain && rain == true) {
+  console.log("One should wear a rain jacket.")
+} else if (temperature <= 60 && rain == true) {
+  console.log("One should wear a jacket and carry an umbrella.")
+} else if (temperature >= 80 && rain == false) {
+  console.log("Its thong weather. Feet or bottoms, your choice.")
+} else if (temperature > 60 && temperature < 80 && rain == false) {
+    console.log("Praise be to the nature goddess, its a perfect day for Crocs & socks!")
+} else if (temperature <= 60 && rain == false) {
+  console.log("Brr, its cold out here. Wrap yourself in your finest skin of deer.")
+}
 
 
 ////////// PROBLEM 5 //////////
