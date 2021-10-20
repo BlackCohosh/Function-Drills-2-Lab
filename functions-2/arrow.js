@@ -64,7 +64,8 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
+const jsNinja = () => {console.log('I am a JavaScript ninja!')}
+return jsNinja()
 
 
 ////////// PROBLEM 5 //////////
