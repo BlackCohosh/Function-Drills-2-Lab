@@ -1,5 +1,5 @@
 ////////// PROBLEM 1 //////////
-
+let str = 'hey'
 /*
   Which syntax was used to create the function below?
   Uncomment the answer underneath.
@@ -11,7 +11,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+ 'expression'
 
 
 
@@ -22,11 +22,11 @@ const exclaim = function(str) {
   Uncomment the answer underneath.
 */
 
-const exclaimTwo = str => {
-  return str.toUpperCase() + '!!!'
-}
+// // const exclaimTwo = str => {
+// //   return str.toUpperCase() + '!!!'
+// }
 
-// arrow
+ 'arrow'
 // declaration
 // expression
 
@@ -36,9 +36,10 @@ const exclaimTwo = str => {
 
   Brownie points if you use a template string
 */
+const exclaimTwo = (str) => {return `${str.toUpperCase()}` + `!!!`} 
+const exclaimThree = exclaimTwo('hey')
 
-
-
+console.log(exclaimThree)
 ////////// PROBLEM 3 //////////
 
 /*
