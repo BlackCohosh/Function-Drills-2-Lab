@@ -64,8 +64,8 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-const jsNinja = () => {console.log('I am a JavaScript ninja!')}
-return jsNinja()
+// const jsNinja = () => {console.log('I am a JavaScript ninja!')}
+// return jsNinja()
 
 
 ////////// PROBLEM 5 //////////
@@ -80,7 +80,14 @@ return jsNinja()
 */
 
 //CODE HERE
-
+const compareNums = (num1, num2) => {
+  if (num1 > num2){
+    console.log(num1);
+  } else if (num2 > num1) {
+    console.log(num2);
+  } else {console.log(num2)}
+}
+return compareNums(2, 2)
   
 ////////// PROBLEM 6 //////////
 
