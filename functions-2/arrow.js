@@ -36,10 +36,10 @@ const exclaim = function(str) {
 
   Brownie points if you use a template string
 */
-const exclaimTwo = (str) => {return `${str.toUpperCase()}` + `!!!`} 
-const exclaimThree = exclaimTwo('hey')
+// const exclaimTwo = (str) => {return `${str.toUpperCase()}` + `!!!`} 
+// const exclaimThree = exclaimTwo('hey')
 
-console.log(exclaimThree)
+// console.log(exclaimThree)
 ////////// PROBLEM 3 //////////
 
 /*
@@ -52,7 +52,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+' declaration'
 // expression
 
 
