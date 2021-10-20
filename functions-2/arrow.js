@@ -80,14 +80,22 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-const compareNums = (num1, num2) => {
-  if (num1 > num2){
-    console.log(num1);
-  } else if (num2 > num1) {
-    console.log(num2);
-  } else {console.log(num2)}
-}
-return compareNums(2, 2)
+// const compareNums = (num1, num2) => {
+//   if (num1 > num2){
+//     console.log(num1 + 'is greater than' +);
+//   } else if (num2 > num1) {
+//     console.log(num2 'is greater than ' + num1);
+//   } else {console.log(num2)}
+// }
+// return compareNums(2, 2)
+
+// function compareNums(num1, num2) {
+
+// var comparTernay = num1 > num2 ? `${num1} is greater than ${num2}.` 
+// : (num1 < num2 ? `${num2} is greater than ${num1}.` : num1) // Syntax from JavaScriptTutorial.net
+// console.log(comparTernay)
+// }
+//  return compareNums(10, 10)
   
 ////////// PROBLEM 6 //////////
 
@@ -103,3 +111,7 @@ return compareNums(2, 2)
 */
 
 //CODE HERE
+const bestMovie = () => {return console.log(`${MOVIEPARAM} is the best movie ever!`)}
+var MOVIEPARAM = 'Sharknado'
+
+return bestMovie()
